@@ -1,0 +1,61 @@
+.btns {
+  position: relative;
+  list-style: none;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+.buttons {
+  justify-content: center;
+  display: flex;
+}
+
+.buttons button {
+  margin: 0px 5% 0px 5%;
+}
+
+.btn-left {
+  background: black;
+  color: white;
+  padding: 10px 0px 10px 0px;
+  width: 100px;
+}
+
+.btn-left-BAD {
+  background: grey;
+  color: white;
+  padding: 10px 0px 10px 0px;
+  width: 100px;
+  background: repeating-linear-gradient( -45deg, #000000, #000000 2px, grey 2px, grey 10px );
+  text-decoration: line-through;
+}
+
+.btn-right {
+  background: black;
+  color: white;
+  padding: 10px 0px 10px 0px;
+  width: 100px;
+}
+
+.progress {
+  background: white;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.square {
+  height: 50px;
+  width: 50px;
+  background-color: grey;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+.squareFilled {
+  height: 50px;
+  width: 50px;
+  background-color: green;
+  margin-left: 1px;
+  margin-right: 1px;
+}
